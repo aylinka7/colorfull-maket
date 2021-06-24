@@ -17,8 +17,24 @@
     <title>World</title>
   </head>
   <body>
-    <img class="button--top" src="https://image.flaticon.com/icons/png/512/992/992703.png" width="50" height="50" alt="" />
-    <header>
+    <img
+      class="button--top"
+      src="https://image.flaticon.com/icons/png/512/992/992703.png"
+      width="50"
+      height="50"
+      alt=""
+    />
+    <!-- <header class="lil_header">
+      <a href="#" class="logo_hand"><img src="img/logo.svg" alt=""></a>
+      <form action="file:///C:/Users/User/Documents/IT%20JS/lesson7%20colorfull/homepage.html"> 
+        <button class="burger">
+          <div class="burger_line"></div>
+          <div class="burger_line"></div>
+          <div class="burger_line"></div>
+        </button>
+      </form>
+    </header> -->
+    <header class="header">
       <a class="header__logo" href="#">
         <img src="img/logo.svg" alt="Ravel" />
       </a>
@@ -28,7 +44,32 @@
         <a href="#">Tour</a>
         <a href="#">Blog </a>
       </nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu--burger">
+        <div>
+          <a href="">fhjdk</a>
+          <a href="">fhjdk</a>
+          <a href="">fhjdk</a>
+          <a href="">fhjdk</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
       <div class="acc_search">
+        <div class="user">
+          <img src="img/user.svg" alt="Search" />
+        </div>
         <a href="" class="acc__search"> My account </a>
         <div>
           <img src="img/search.svg" alt="Search" />
@@ -36,20 +77,308 @@
       </div>
     </header>
     <main>
-        <div class="main__banner">
-            <img src="img/main_bg.png">
-            <div class="main__info">
-                <h1>It’s Time To <br>
-                    Explore The World
-                </h1>
-                <button>
-                    Plan your trip
-                </button>
-            </div>
+      <div class="main__banner">
+        <img src="img/main_bg.png" />
+        <div class="main__info">
+          <h1>
+            It’s Time To <br />
+            Explore The World
+          </h1>
+          <button>Plan your trip</button>
         </div>
-
-        <div>hello</div>
+      </div>
+      <div class="main_search">
+        <div class="range">
+          <img src="img/arrow_left.svg" alt="" />
+          <img src="img/arrow_right.svg" alt="" />
+          <div class="range--line"></div>
+          <div class="number">03</div>
+        </div>
+        <form class="main_filter">
+          <label class="field">
+            <span>Destinations</span>
+            <select name="" id="">
+              <option value="">Arab Egypt</option>
+              <option value="">Arab Egypt</option>
+              <option value="">Arab Egypt</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Check In</span>
+            <select name="" id="">
+              <option value="">01 Feb, 2021</option>
+              <option value="">01 Feb, 2021</option>
+              <option value="">01 Feb, 2021</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Price Range</span>
+            <select name="" id="">
+              <option value="">$500 - $10,0000</option>
+              <option value="">$500 - $10,0000</option>
+              <option value="">$500 - $10,0000</option>
+            </select>
+          </label>
+          <button class="discover">Discover Now</button>
+        </form>
+      </div>
     </main>
-    <section id="aboutus">About us</section>
+    <section class="blocks">
+      <div class="block">
+        <img src="img/map.svg" alt="" />
+        <div class="block_heading">Choose Destination</div>
+        <div class="block_text">
+          Lorem Ipsum is simply dummy text of the printing setting
+        </div>
+      </div>
+      <div class="block">
+        <img src="img/binocular.svg" alt="" />
+        <div class="block_heading">Explore The Place</div>
+        <div class="block_text">
+          Lorem Ipsum is simply dummy text of the printing setting
+        </div>
+      </div>
+      <div class="block">
+        <img src="img/backpack.svg" alt="" />
+        <div class="block_heading">Start Your Journey</div>
+        <div class="block_text">
+          Lorem Ipsum is simply dummy text of the printing setting
+        </div>
+      </div>
+      <div class="block">
+        <img src="img/ukelele.svg" alt="" />
+        <div class="block_heading">Let’s Enjoy</div>
+        <div class="block_text">
+          Lorem Ipsum is simply dummy text of the printing setting
+        </div>
+      </div>
+    </section>
+    <section class="destinations">
+      <div class="destinations_about">
+        <div class="destinations_heading">
+          Top <span>Destinations</span> In The World
+        </div>
+        <div class="block_text destinations_text">
+          It is a long established fact that a reader will be the distracted by
+          the readable content of a page when looking at its layout from it.
+        </div>
+        <button class="discover destinations_button">Discover More</button>
+      </div>
+      <img
+        src="img/Cuba.svg"
+        width="284"
+        height="360"
+        alt=""
+        class="destinations_img"
+      />
+      <div class="destinations_city1">Cuba City</div>
+      <img
+        src="img/Paris.svg"
+        width="284"
+        height="360"
+        alt=""
+        class="destinations_img"
+      />
+      <div class="destinations_city2">Paris</div>
+      <img
+        src="img/japan.svg"
+        width="284"
+        height="340"
+        alt=""
+        class="destinations_img"
+      />
+      <div class="destinations_city3">Japan</div>
+    </section>
+    <section class="lighthouse">
+      <div class="picture">
+        <img
+          src="img/square.svg"
+          width="128"
+          height="128"
+          alt=""
+          class="square"
+        />
+        <img
+          src="img/points.svg"
+          width="153"
+          height="155"
+          alt=""
+          class="points"
+        />
+        <img
+          src="img/shadow.svg"
+          width="232"
+          height="552"
+          alt=""
+          class="shadow"
+        />
+        <img
+          src="img/circle.svg"
+          width="48"
+          height="48"
+          alt=""
+          class="circle"
+        />
+        <img
+          src="img/lighthouse.svg"
+          width="512"
+          height="630"
+          alt=""
+          class="lighthouse_img"
+        />
+      </div>
+      <div class="lighthouse_column">
+        <div class="lighthouse_heading">
+          We Offering In Total 793 Tours Out The World
+        </div>
+        <div class="lineblocks">
+          <div class="lineblock lineblock1">
+            <div class="lineblock_">
+              <img src="img/lighthouse_icon1.svg" alt="" />
+              <div class="lineblock_heading1">
+                Best Travel Guide Always For Your Services
+              </div>
+            </div>
+            <div class="lineblock_text">
+              Travel has helped us to understandsa the meaning of life and it
+              has helped us become better people. Each time we travel, we see
+              the world with new eyes. Travel has helped us to understand the
+              meaning of life
+            </div>
+          </div>
+          <div class="lineblock">
+            <img src="img/lighthouse_icon2.svg" alt="" />
+            <div class="lineblock_heading">
+              World Class Services Provide For You
+            </div>
+          </div>
+          <div class="lineblock">
+            <img src="img/lighthouse_icon3.svg" alt="" />
+            <div class="lineblock_heading">24/7 Strong Customer Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="heading1">Choose Your Destination</div>
+    <section class="pictures1">
+      <div class="triangle">
+        <img src="img/triangle.svg" class="triangle_picture" alt="" />
+        <img src="img/red_moon.png" alt="" class="picture1" />
+        <div class="block_onpicture">
+          <div class="heading_onpicture">Santorini, Oia Greece</div>
+          <div class="line_onpicture">
+            <div class="price_onpicture">$2000</div>
+            <img src="img/stars.svg" alt="" class="stars" />
+            <img src="img/plus.svg" alt="" class="plus" />
+          </div>
+        </div>
+      </div>
+      <div class="nothing_onpicture">
+        <img src="img/temple.png" alt="" class="picture1_2 picture1" />
+        <div class="block_onpicture">
+          <div class="heading_onpicture">Santorini, Oia Greece</div>
+          <div class="line_onpicture">
+            <div class="price_onpicture">$2000</div>
+            <img src="img/stars.svg" alt="" class="stars" />
+            <img src="img/plus.svg" alt="" class="plus" />
+          </div>
+        </div>
+        <button class="button_onpicture">View All Places</button>
+      </div>
+      <div class="fourth_of_circle">
+        <img
+          src="img/fourt_of_circle.svg"
+          class="fourth_of_circle_picture"
+          alt=""
+        />
+        <img src="img/chines_temple.png" alt="" class="picture1" />
+        <div class="block_onpicture">
+          <div class="heading_onpicture">Santorini, Oia Greece</div>
+          <div class="line_onpicture">
+            <div class="price_onpicture">$2000</div>
+            <img src="img/stars.svg" alt="" class="stars" />
+            <img src="img/plus.svg" alt="" class="plus" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="heading2">
+      What Our Happy Customers <br />
+      Say About Us
+    </div>
+    <section class="profile_section">
+      <img src="img/profile14.svg" alt="" class="profile1">
+      <img src="img/profile2.svg" alt="" class="profile2">
+      <img src="img/profile3.svg" alt="" class="profile3">
+      <img src="img/profile4.svg" alt="" class="profile4">
+      <div class="block_profile">
+        <div class="first_line">
+          <img src="img/profile.svg" alt="" class="profile">
+          <div class="column1">
+            <div class="heading_profile">Md Shamim Hossain</div>
+            <div class="profession">UI/UX Designer</div>
+          </div>
+        </div>
+        <div class="text_profile">
+          Jetrips Hotel is an excellent choice for anybody for <br> considering hosting their events there. Top levela <br> facilities and excellent staff make for a brilliantad <br> environment within which to operate. The hotel is <br> meticulous in its planning.
+        </div>
+        <img src="img/points2.svg" alt="" class="points2">
+      </div>
+      <img src="img/profile5.svg" alt="" class="profile5">
+      <img src="img/profile6.svg" alt="" class="profile6">
+      <img src="img/profile7.svg" alt="" class="profile7">
+    </section>
+    <section class="advertising">
+      <div class="heading">Download Now Travel <br>
+        Community Apps</div>
+        <img src="img/google play.png" alt="">
+        <img src="img/apple store.png" alt="">
+    </section>
+    <footer>
+      <div class="columns11">
+        <div class="columns1">
+          <img src="img/logo.svg" alt="" class="logo_end">
+          <div class="text_end">You can dream, create, design, and buildsa the most <br> wonderful place.</div>
+          <div class="icons1">
+            <img src="img/phone.svg" alt="">
+            <div class="text_end">+0123 456 987, +0123 456 987</div>
+          </div>
+          <div class="icons1">
+            <img src="img/email.svg" alt="">
+            <div class="text_end">yourmailaddress@gmail.com</div>
+          </div>
+          <div class="icons1">
+            <img src="img/adress.svg" alt="">
+            <div class="text_end">www.yourwebsitename.com</div>
+          </div>
+        </div>
+        <div class="columns2">
+          <div class="heading_column">Quick Links</div>
+          <a href="">- About us</a>
+          <a href="">- Destinations</a>
+          <a href="">- Latest Blog</a>
+          <a href="">- Our Team</a>
+          <a href="">- Contact us</a>
+        </div>
+      </div>
+      <div class="columns22">
+        <div class="columns3">
+          <div class="heading_column">Support</div>
+          <a href="">- Customer Support</a>
+          <a href="">- Privacy & Policy</a>
+          <a href="">- Terms & Condition</a>
+          <a href="">- Forum</a>
+          <a href="">- Tour Guid</a>
+        </div>
+        <div class="columns4">
+          <div class="heading_column">Newsletter</div>
+          <form action="">
+            <input type="text" >
+            <button>Subscribe Now</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="end">Copyright @2020 Ravel. Designed By <a href="">Md Shamim Hossain</a> </div>
   </body>
 </html>
